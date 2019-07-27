@@ -25,7 +25,7 @@ sum(eff.portfolio[,1:6])
 sum(eff.portfolio[,7:12])
 
 # Efficient Frontier MVO
-eff.fr <- eff.frontier(covmat, mean_vect,Rfdaily, short = "yes", 0.50,-0.1,0.50,-0.1, 5, 0.005)
+eff.fr <- eff.frontier(covmat, mean_vect,Rfdaily, short = "yes", 0.50,-0.1, 5, 0.005)
 eff.fr
 
 # Look at the coordinates of x and y for tangency portfolio
